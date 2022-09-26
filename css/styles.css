@@ -1,0 +1,162 @@
+body{
+  font-family: 'Montserrat-light';
+  text-align: center;
+}
+
+
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.container-fluid{
+  padding: 7% 15% ;
+}
+/* heading-section */
+h1,h2,h3{
+  font-family: 'Montserrat';
+}
+
+.main-heading{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+
+}
+
+.final-heading{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+/* ----------------------- */
+p{
+  color: #8f8f8f;
+}
+/* color-sections */
+.colored-section{
+  color: white;
+  background-color: #ff4c68;
+
+}
+.white-section{
+  background-color: #fff;
+
+}
+/* navigationbar */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat-light';
+
+  font-size: 1.2rem;
+
+}
+.navbar{
+  padding-bottom: 50px;
+}
+
+.iphone6{
+  width: 20%;
+  transform: rotate(0.035turn);
+  margin:0 auto 0 50px;
+  position: absolute;
+  right: 20%;
+}
+
+.button-download{
+  margin:5% 3% 5% 0;
+}
+#features{
+  position: relative;
+  }
+.takeaways{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.cool-features{
+  padding: 4.5%;
+
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.testimonial-text{
+  font-weight:bold;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  padding-bottom: 5%;
+}
+.recognition{
+  width:15%;
+  margin: 5% 2% 5%;
+}
+
+#pricing{
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.plan-type{
+  font-weight:bold;
+  font-size:3rem;
+  line-height: 1.5;
+}
+.plan-name{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+@media(max-width:991px){
+  #static{
+    text-align: center;
+  }
+  .iphone6{
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+#footer{
+  line-height: 1.5;
+  font-family: "ubuntu";
+
+}
+.social-media{
+  padding: 6px;
+}
+.TinDog{
+  margin-top: 10px;
+}
+.rainbow
+{
+   color: linear-gradient(180deg,
+   rgba(255, 0, 0, 1) 0%,
+   rgba(255, 255, 0, 1) 33%,
+   rgba(0, 192, 255, 1) 66%,
+   rgba(192, 0, 255, 1) 100%);
+}
